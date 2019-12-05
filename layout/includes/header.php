@@ -311,13 +311,13 @@ echo $OUTPUT->standard_top_of_body_html();
     </div>
 
     <div id="page-header" class="container <?php echo $PAGE->theme->settings->responsiveheader;?>">
-        <div class="row">
+        <div>
 
-        <div class="col-lg-4">
+        <div>
         <?php
         // Site title or logo.
         if (!$hidesitetitle) {
-            echo '<div class="d-flex align-items-start bd-highlight">';
+            echo '<div class="align-items-start bd-highlight">';
             echo $OUTPUT->get_logo_title($currenttopcat);
             echo '</div>';
         }
@@ -387,10 +387,10 @@ echo $OUTPUT->standard_top_of_body_html();
 
     <div id="header2" class="container">
 
-      <div class="row">
+      <div>
 
-        <div class="d-none d-lg-block col-lg-4">
-        <div class="d-flex align-items-start bd-highlight">
+        <div class="d-none d-lg-block">
+        <div class="align-items-start bd-highlight">
 
             <?php
             // Site title or logo.

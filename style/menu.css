@@ -657,6 +657,10 @@ a.dropdown-item.i.fa.fa-users.fa-lg {
     margin-right: .25rem;
 }
 
+#main-navbar {
+    border-top: solid #ecefe7 1px;
+}
+
 #adaptable-page-header-wrapper #main-navbar .nav-item i.only {
     padding-right: 0;
 }
